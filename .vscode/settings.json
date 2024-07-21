@@ -1,0 +1,7 @@
+{
+  "prettier.enable": true,
+  "prettier.singleQuote": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+}
