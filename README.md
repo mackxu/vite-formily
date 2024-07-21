@@ -1,3 +1,23 @@
+# 初始化项目
+
+## 依赖包
+
+- vite
+- react-ts
+- vite-formily
+- @formily/core
+- @formily/antd-v5
+- @formily/react
+- antd
+- dayjs
+
+```bash
+npm create vite@latest vite-formily -- --template react-ts
+
+npm install --save antd dayjs
+npm install --save @formily/core @formily/react @formily/antd-v5
+```
+
 # 笔记
 
 - createForm 用来创建表单核心领域模型，它是作为 MVVM 设计模式的标准 ViewModel
@@ -33,9 +53,9 @@ If you are developing a production application, we recommend updating the config
 export default {
   // other rules...
   parserOptions: {
-    ecmaVersion: "latest",
-    sourceType: "module",
-    project: ["./tsconfig.json", "./tsconfig.node.json", "./tsconfig.app.json"],
+    ecmaVersion: 'latest',
+    sourceType: 'module',
+    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
     tsconfigRootDir: __dirname,
   },
 };
