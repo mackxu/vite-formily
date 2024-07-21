@@ -1,5 +1,7 @@
 # 初始化项目
 
+vite + formily + react + antd v5
+
 ## 依赖包
 
 - vite
